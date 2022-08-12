@@ -1,1 +1,6 @@
-import React from 'React';
+export default function(state = {}, action) {
+    switch (action.type) {
+        default: 
+            return state;
+    }
+}
